@@ -1,12 +1,12 @@
 year = int(input('Enter  year: '))
 
 if (year % 400 == 0) and (year % 100 == 0):
-    print('the is leap year')
+    print('the is leap year(366 days)')
 
 elif (year % 4 == 0) and (year % 100 == 0):
-    print('the year is a leap year')
+    print('the year is a leap year(366 days)')
 else:
-    print(" is not a leap year")
+    print(" is not a leap year (365 days)")
 
     print("************************")
 
